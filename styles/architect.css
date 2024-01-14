@@ -141,12 +141,21 @@ main {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-/* .facts{
-    margin-top: 60px;
+
+
+/* Sponsors styles */
+.sponsors{
+    text-align: center;
 }
-.facts .some-facts{
-    margin-bottom: 10px;
-} */
+
+.sponsors-img-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    align-items: center;
+    gap: 40px;
+}
+
 
 
 
@@ -160,7 +169,8 @@ main {
 
     nav,
     .teams-container,
-    .facts-card-container
+    .facts-card-container,
+    .sponsors-img-container
      {
         flex-direction: column;
     }
@@ -186,7 +196,8 @@ main {
     }
 
     nav,
-    .teams-container    
+    .teams-container,
+    .sponsors-img-container    
      {
         flex-direction: column;
     }
